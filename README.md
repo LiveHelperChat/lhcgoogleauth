@@ -1,4 +1,3 @@
-# lhcgoogleauth
 Google Authentication support
 
 ## Install instructions
@@ -25,3 +24,4 @@ cd extension/lhcgoogleauth && composer.phar update
 10. That's it.
 
 You will have to create web application project in google.
+

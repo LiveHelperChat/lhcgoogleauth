@@ -4,5 +4,5 @@
 <hr>
 <?php else : ?>
 <p>Please login to complete process.</p>
-<input type="hidden" name="oauth_google" value="<?php echo isset($_POST['oauth_google']) ? $_POST['oauth_google'] : (isset($_GET['oauth_google']) ? $_GET['oauth_google'] : '')?>">
+<input ng-non-bindable type="hidden" name="oauth_google" value="<?php echo isset($_POST['oauth_google']) ? $_POST['oauth_google'] : (isset($_GET['oauth_google']) ? $_GET['oauth_google'] : '')?>">
 <?php endif; ?>

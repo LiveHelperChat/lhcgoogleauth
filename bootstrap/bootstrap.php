@@ -1,5 +1,5 @@
 <?php
-
+#[\AllowDynamicProperties]
 class erLhcoreClassExtensionLhcgoogleauth {
 
     public function __construct() {
